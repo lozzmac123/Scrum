@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+       <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  
+    <style type="text/css">
+        
+     main  {
+      padding-left: 300px;
+      
+    }
+
+    @media only screen and (max-width : 992px) {
+       main  {
+        padding-left: 0;
+        padding-top: 0;
+    
+
+      }
+    }
+    #newelement {
+        padding-top: 100px;
+    }
+    #myNavbar {
+    position: absolute; 
+    bottom: 0; 
+    right: 0;
+    margin-bottom: 70px;
+}
+    </style>
+    </head>
+	
+
+    <body >
+        
+        <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.slider').slider();
+                $(".button-collapse").sideNav();
+                
+                $('select').material_select();
+                $('.parallax').parallax();
+                
+            });
+            
+</script>
+      
+    
+        
+       <header>
+        <ul id="slide-out" class="side-nav fixed">
+        <li><h3>Burberry Bar</h3></li>
+
+
+
+            
+
+
+
+
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="prices.html">Prices</a></li>
+      <li><a href="booking.html">Booking</a></li>
+      <li><a href="news.html">News</a></li>
+            <h4>Advertisment Space</h4>
+        <h4>Availible Here</h4>
+            <blockquote style="" id="myNavbar">
+      <i>Burberry Bar is Open Monday-Saturday 6am - 12pm</i>
+    </blockquote>
+    </ul>
+           <nav class="hide-on-large-only">
+               
+           <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+            <div class="nav-wrapper">
+      <a href="#" class="brand-logo" style="padding-top: 30px"><p>The Looking Glass</p></a>
+                </div>
+    </nav>
+      </header>
+  
+
+       
+
+      
+<main>
+    
+    <h2 class=" center">  Reserve a Table</h2>
+
+    <h5 class="center"> Use our booking system to help you reserve a table quick and fast</h5>
+    
+          <div class="row" id="#newelement">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input  id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="Contact Number" type="number" class="validate">
+          <label for="Contact Number">Phone Number </label>
+        </div>
+      
+        <div class="input-field col s6">
+          <input id="Seats_Needed" type="text" class="validate">
+          <label for="Seats_Needed">Seats Needed</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input  id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+    
+      
+    </form>
+  </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/panorama3.jpg"></div>
+    </div>
+    
+    </main>
+       
+</body>
+</html>
